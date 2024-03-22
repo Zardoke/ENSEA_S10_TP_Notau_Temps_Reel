@@ -7,7 +7,8 @@ TP_Notau_Temps_Reel_FreeRTOS
 Créez un projet pour la carte STM32F746G-DISCO. <br/>
 Configuration sur du STM32CubeIDE :
 - System Core > RCC > High Speed Clock (HSE) = Crystal/Ceramic Resonator <br/>
-- System Core > SYS > Debug = Serial Wire <br/>
+- System Core > SYS > Debug = Serial Wire & TIM6 <br/>
+- FreeRTOS > CMSIS_V1 <br/>
 Configurez la broche PI1 en sortie (c’est la LED !). 
 - PI1 > GPIO Output <br/>
 - "Clock Configuration". Mettez HCLK à 216MHz <br/>

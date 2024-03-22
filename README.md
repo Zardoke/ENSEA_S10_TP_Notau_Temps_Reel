@@ -12,6 +12,6 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 -  Dans Projet Manager puis Code Generator, dans la rubrique Genereted files cocher "Generate peripheral initialization as a pair of '.c /' h ' files per peripheral"
 - 
 0.1 Premiers pas
-1) E
+1) Le nom du projet est "TP_Noyau_Temps_Reel" -> Core -> Src -> "main.c"
 2) E
 

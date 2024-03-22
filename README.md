@@ -4,16 +4,16 @@ TP_Notau_Temps_Reel_FreeRTOS
 # Séance 1 : 22/03/2024
 
 <h1>1 FreeRTOS, tâches et sémaphores</h1>
-Créez un projet pour la carte STM32F746G-DISCO.
+Créez un projet pour la carte STM32F746G-DISCO. <br/>
 Configuration sur du STM32CubeIDE :
-- System Core > RCC > High Speed Clock (HSE) = Crystal/Ceramic Resonator
-- System Core > SYS > Debug = Serial Wire
-Configurez la broche PI1 en sortie (c’est la LED !).
-- PI1 > GPIO Output
-- "Clock Configuration". Mettez HCLK à 216MHz
--  Dans Projet Manager puis Code Generator, dans la rubrique Genereted files cocher "Generate peripheral initialization as a pair of '.c /' h ' files per peripheral"
-- Le nom du projet est "TP_Noyau_Temps_Reel" -> Core -> Src -> "main.c"
-- Les balises BEGIN et END (ou des balises similaires) sont des outils utiles pour organiser, naviguer, comprendre, déboguer et collaborer sur du code dans un environnement de développement comme STM32CubeIDE.
+- System Core > RCC > High Speed Clock (HSE) = Crystal/Ceramic Resonator <br/>
+- System Core > SYS > Debug = Serial Wire <br/>
+Configurez la broche PI1 en sortie (c’est la LED !). 
+- PI1 > GPIO Output <br/>
+- "Clock Configuration". Mettez HCLK à 216MHz <br/>
+-  Dans Projet Manager puis Code Generator, dans la rubrique Genereted files cocher "Generate peripheral initialization as a pair of '.c /' h ' files per peripheral" <br/>
+- Le nom du projet est "TP_Noyau_Temps_Reel" -> Core -> Src -> "main.c" <br/>
+- Les balises BEGIN et END (ou des balises similaires) sont des outils utiles pour organiser, naviguer, comprendre, déboguer et collaborer sur du code dans un environnement de développement comme STM32CubeIDE. <br/>
 
 1.1) Tâche simple <br/>
 - Le paramètre TOTAL_HEAP_SIZE est crucial pour garantir le bon fonctionnement de FreeRTOS en fournissant suffisamment de mémoire pour les allocations dynamiques nécessaires à l'exécution des tâches et des autres structures de données. Sa valeur doit être soigneusement sélectionnée en fonction des besoins spécifiques de votre application. <br/>

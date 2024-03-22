@@ -13,5 +13,5 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 - 
 0.1 Premiers pas
 1) Le nom du projet est "TP_Noyau_Temps_Reel" -> Core -> Src -> "main.c"
-2) E
+2) Les balises BEGIN et END (ou des balises similaires) sont des outils utiles pour organiser, naviguer, comprendre, déboguer et collaborer sur du code dans un environnement de développement comme STM32CubeIDE.
 

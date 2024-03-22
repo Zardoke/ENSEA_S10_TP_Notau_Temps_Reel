@@ -9,8 +9,9 @@ Configuration sur du STM32CubeIDE :
 Configurez la broche PI1 en sortie (c’est la LED !).
 - PI1 > GPIO Output
 - "Clock Configuration". Mettez HCLK à 216MHz
-
+-  Dans Projet Manager puis Code Generator, dans la rubrique Genereted files cocher "Generate peripheral initialization as a pair of '.c /' h ' files per peripheral"
+- 
 0.1 Premiers pas
-1)
-2)
+1) E
+2) E
 

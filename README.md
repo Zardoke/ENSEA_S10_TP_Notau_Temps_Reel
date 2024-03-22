@@ -16,12 +16,12 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 2) Les balises BEGIN et END (ou des balises similaires) sont des outils utiles pour organiser, naviguer, comprendre, déboguer et collaborer sur du code dans un environnement de développement comme STM32CubeIDE.
 
 <h1>1 FreeRTOS, tâches et sémaphores</h1>
-1.1) Tâche simple /br
-Le paramètre TOTAL_HEAP_SIZE est crucial pour garantir le bon fonctionnement de FreeRTOS en fournissant suffisamment de mémoire pour les allocations dynamiques nécessaires à l'exécution des tâches et des autres structures de données. Sa valeur doit être soigneusement sélectionnée en fonction des besoins spécifiques de votre application.
-1.2) Sémaphores pour la synchronisation
-1.3) Notification
-1.4) Queues
-1.5) Réentrance et exclusion mutuelle
+1.1) Tâche simple <br/>
+Le paramètre TOTAL_HEAP_SIZE est crucial pour garantir le bon fonctionnement de FreeRTOS en fournissant suffisamment de mémoire pour les allocations dynamiques nécessaires à l'exécution des tâches et des autres structures de données. Sa valeur doit être soigneusement sélectionnée en fonction des besoins spécifiques de votre application. <br/>
+1.2) Sémaphores pour la synchronisation <br/>
+1.3) Notification <br/>
+1.4) Queues <br/>
+1.5) Réentrance et exclusion mutuelle <br/>
 
 <h1>2 On joue avec le Shell</h1>
 

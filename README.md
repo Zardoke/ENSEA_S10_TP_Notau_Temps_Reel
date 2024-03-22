@@ -17,6 +17,7 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 
 1 FreeRTOS, tâches et sémaphores
 1.1 Tâche simple
+Le paramètre TOTAL_HEAP_SIZE est crucial pour garantir le bon fonctionnement de FreeRTOS en fournissant suffisamment de mémoire pour les allocations dynamiques nécessaires à l'exécution des tâches et des autres structures de données. Sa valeur doit être soigneusement sélectionnée en fonction des besoins spécifiques de votre application.
 1.2 Sémaphores pour la synchronisation
 1.3 Notification
 1.4 Queues

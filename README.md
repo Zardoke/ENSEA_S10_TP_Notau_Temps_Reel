@@ -27,6 +27,7 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 
 <h1>2 On joue avec le Shell</h1>
 
+1.5 Réentrance et exclusion mutuelle
 <h1>3 Debug, gestion d’erreur et statistiques</h1>
 
 

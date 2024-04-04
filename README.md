@@ -24,7 +24,7 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 </h2>1.3) Notification</h2> <br/>
 </h2>1.4) Queues</h2> <br/>
 </h2>1.5) Réentrance et exclusion mutuelle</h2> <br/>
-- On remarque que la tache 2 est appelé 2 fois par cycle là où la tâche 1er est appelé 1 fois. On change la valeur de TASK1_DELAY1 pour qu'il est le même delais que TASK1_DELAY2
+- On remarque que la taches 1 est intérrompupar la tâche 2. On a dans un 1er temps changé la valeur de TASK1_DELAY1 pour qu'il est le même delais que TASK1_DELAY2
 <h1>2 On joue avec le Shell</h1>
 
 <h1>3 Debug, gestion d’erreur et statistiques</h1>

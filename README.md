@@ -33,6 +33,9 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 
 Le problème dans la fonction addition est que le code n'a pas de valeur de retour dans tous les chemins d'exécution. La fonction addition est déclarée comme renvoyant un int, mais il n'y a pas de retour de valeur dans tous les cas.
 
+![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/75ac1fb6-70da-4322-9620-6b08c2f0cd70)
+
+Avec notre modification, la fonction addition retourne toujours une valeur, même si elle rencontre une erreur,
 <h1>3 Debug, gestion d’erreur et statistiques</h1>
 
 

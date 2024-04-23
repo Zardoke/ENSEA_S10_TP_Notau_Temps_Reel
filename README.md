@@ -57,7 +57,10 @@ Lorsque la fonction led est appelée depuis le shell avec une période spécifi�
 
 <h1>3 Debug, gestion d’erreur et statistiques</h1>
 <h2>3.1 Gestion du tas</h2> <br/>
+</h2>1) </h2> <br/>
+</h2>2) </h2> <br/>
 
+</h2>2) </h2> <br/>
 
 
 

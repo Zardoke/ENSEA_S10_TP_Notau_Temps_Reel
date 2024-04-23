@@ -38,6 +38,8 @@ Le problème dans cette implémentation est que la fonction fonction utilise la 
 
 ![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/75ac1fb6-70da-4322-9620-6b08c2f0cd70)
 
+</h2>1.5) </h2>
+Pour résoudre ce problème, la structure h_shell_t doit être passée en tant que paramètre à la fonction fonction. Cela permettra à la fonction d'accéder correctement aux fonctions de transmission du shell. Voici comment la fonction fonction peut être modifiée pour recevoir la structure h_shell_t en tant que paramètre :
 Avec notre modification, la fonction addition retourne toujours une valeur, même si elle rencontre une erreur.
 
 Le non-respect des priorités peut entraîner des problèmes pouvant faire planter le programme.

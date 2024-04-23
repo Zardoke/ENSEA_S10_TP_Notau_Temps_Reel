@@ -50,6 +50,7 @@ Le non respect des priorités des tâches dans un système d'exploitation temps 
 <img width="194" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/e35fc2f0-c6ff-48e9-9eba-00fc7663a0d7"><br/>
 
 <h1>3 Debug, gestion d’erreur et statistiques</h1>
+<h2>3.1 Gestion du tas</h2> <br/>
 
 
 

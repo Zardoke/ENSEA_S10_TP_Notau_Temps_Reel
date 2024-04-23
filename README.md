@@ -44,7 +44,7 @@ Avec notre modification, la fonction addition retourne toujours une valeur, mêm
 </h2>2) </h2> <br/>
 Le non-respect des priorités peut entraîner des problèmes pouvant faire planter le programme.
 
-Si l'on ne respecte pas les priorités des tâches dans un système d'exploitation temps réel comme FreeRTOS, cela peut entraîner des problèmes de performances et de comportement. Par exemple, si une tâche critique avec une priorité élevée est bloquée par une tâche non critique avec une priorité plus basse, cela peut entraîner des retards dans le traitement des tâches critiques et peut même conduire à des conditions de concurrence et à des instabilités du système.
+Le non respect des priorités des tâches dans un système d'exploitation temps réel comme FreeRTOS,  peut entraîner des problèmes de performances et de comportement. Par exemple, si une tâche critique avec une priorité élevée est bloquée par une tâche non critique avec une priorité plus basse, cela peut entraîner des retards dans le traitement des tâches critiques.
 
 <h1>3 Debug, gestion d’erreur et statistiques</h1>
 

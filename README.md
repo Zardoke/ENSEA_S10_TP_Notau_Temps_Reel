@@ -41,8 +41,10 @@ Le problème dans cette implémentation est que la fonction fonction utilise la 
 </h2>1.5) </h2>
 Pour résoudre ce problème, la structure h_shell_t doit être passée en tant que paramètre à la fonction fonction. Cela permettra à la fonction d'accéder correctement aux fonctions de transmission du shell. Voici comment la fonction fonction peut être modifiée pour recevoir la structure h_shell_t en tant que paramètre :
 Avec notre modification, la fonction addition retourne toujours une valeur, même si elle rencontre une erreur.
-
+</h2>2.) </h2>
 Le non-respect des priorités peut entraîner des problèmes pouvant faire planter le programme.
+
+Si l'on ne respecte pas les priorités des tâches dans un système d'exploitation temps réel comme FreeRTOS, cela peut entraîner des problèmes de performances et de comportement. Par exemple, si une tâche critique avec une priorité élevée est bloquée par une tâche non critique avec une priorité plus basse, cela peut entraîner des retards dans le traitement des tâches critiques et peut même conduire à des conditions de concurrence et à des instabilités du système.
 
 <h1>3 Debug, gestion d’erreur et statistiques</h1>
 

@@ -60,7 +60,11 @@ Lorsque la fonction led est appelée depuis le shell avec une période spécifi�
 </h2>1) </h2> <br/>
 La zone réservée à l'allocation dynamique est généralement appelée le "tas" ou la "zone de heap". <br/>
 </h2>2) </h2> <br/>
-Le tas est géré par FreeRTOS, pas par la HAL (Hardware Abstraction Layer). FreeRTOS alloue et gère dynamiquement la mémoire nécessaire pour les tâches, les files d'attente, les sémaphores, etc. Cela inclut l'allocation dynamique de mémoire pour les structures de données utilisées par le système d'exploitation. La HAL, en revanche, fournit des interfaces logicielles pour accéder au matériel spécifique du microcontrôleur, mais elle n'est pas responsable de la gestion de la mémoire dynamique utilisée par FreeRTOS.
+Le tas est géré par FreeRTOS, pas par la HAL (Hardware Abstraction Layer). FreeRTOS alloue et gère dynamiquement la mémoire nécessaire pour les tâches, les files d'attente, les sémaphores, etc. Cela inclut l'allocation dynamique de mémoire pour les structures de données utilisées par le système d'exploitation. La HAL, en revanche, fournit des interfaces logicielles pour accéder au matériel spécifique du microcontrôleur, mais elle n'est pas responsable de la gestion de la mémoire dynamique utilisée par FreeRTOS. <br/>
+</h2>3) </h2> <br/>
+Voici la partie du programme concernant la gestion d’erreur sur toutes les fonction.
+<img width="674" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/d446a025-b689-4a7d-af8e-52a35ea2a498">
+
 
 
 

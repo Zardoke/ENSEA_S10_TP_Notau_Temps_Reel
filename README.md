@@ -28,7 +28,6 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 - On a utiliser le semphore mutex pour "verrouillé" afficher notre message dans son entièreté avec la liaison UART et "déverrouillé" le mutex.
 
 <h1>2 On joue avec le Shell</h1><br/>
-<img width="194" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/e35fc2f0-c6ff-48e9-9eba-00fc7663a0d7"><br/>
 
 </h2>1.3) </h2> <br/>
 - le shell interprète les commandes entrées par l'utilisateur, analyse les arguments et appelle les fonctions correspondantes avec ces arguments. Dans le shell en tapant le caractère une chaine de caractère commençant par le caractère "a", la méthode "fonction" est lancé et affiche les caractères. Lorsque le shell appelle cette fonction, elle est exécutée. Dans ce cas, la fonction fonction envoie un message via UART en utilisant les fonctions de transmission du shell. Après l'exécution de la fonction, le contrôle est renvoyé au shell, qui attend une nouvelle entrée de l'utilisateur.
@@ -47,6 +46,8 @@ Avec notre modification, la fonction addition retourne toujours une valeur, mêm
 Le non-respect des priorités peut entraîner des problèmes pouvant faire planter le programme.
 
 Le non respect des priorités des tâches dans un système d'exploitation temps réel comme FreeRTOS,  peut entraîner des problèmes de performances et de comportement. Par exemple, si une tâche critique avec une priorité élevée est bloquée par une tâche non critique avec une priorité plus basse, cela peut entraîner des retards dans le traitement des tâches critiques.
+
+<img width="194" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/e35fc2f0-c6ff-48e9-9eba-00fc7663a0d7"><br/>
 
 <h1>3 Debug, gestion d’erreur et statistiques</h1>
 

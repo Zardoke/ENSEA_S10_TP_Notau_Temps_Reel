@@ -28,20 +28,20 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 - On a utiliser le semphore mutex pour "verrouillé" afficher notre message dans son entièreté avec la liaison UART et "déverrouillé" le mutex.
 
 <h1>2 On joue avec le Shell</h1>
-</h2>1.3) </h2>
+</h2>1.3) </h2> <br/>
 - le shell interprète les commandes entrées par l'utilisateur, analyse les arguments et appelle les fonctions correspondantes avec ces arguments. Dans le shell en tapant le caractère une chaine de caractère commençant par le caractère "a", la méthode "fonction" est lancé et affiche les caractères. Lorsque le shell appelle cette fonction, elle est exécutée. Dans ce cas, la fonction fonction envoie un message via UART en utilisant les fonctions de transmission du shell. Après l'exécution de la fonction, le contrôle est renvoyé au shell, qui attend une nouvelle entrée de l'utilisateur.
 
 ![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/7a67b71f-9816-48ea-8be1-16b39cc28ccb)
 
-</h2>1.4) </h2>
+</h2>1.4) </h2> <br/>
 Le problème dans cette implémentation est que la fonction fonction utilise la structure h_shell_t pour accéder aux fonctions de transmission du shell (transmit). Cependant, la structure h_shell_t n'est pas passée en tant que paramètre à la fonction fonction. Cela peut conduire à des erreurs ou un comportement indéterminé, car la fonction ne dispose pas d'un accès direct à la structure.
 
 ![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/75ac1fb6-70da-4322-9620-6b08c2f0cd70)
 
-</h2>1.5) </h2>
+</h2>1.5) </h2> <br/>
 Pour résoudre ce problème, la structure h_shell_t doit être passée en tant que paramètre à la fonction fonction. Cela permettra à la fonction d'accéder correctement aux fonctions de transmission du shell. Voici comment la fonction fonction peut être modifiée pour recevoir la structure h_shell_t en tant que paramètre :
 Avec notre modification, la fonction addition retourne toujours une valeur, même si elle rencontre une erreur.
-</h2>2.) </h2>
+</h2>2) </h2> <br/>
 Le non-respect des priorités peut entraîner des problèmes pouvant faire planter le programme.
 
 Si l'on ne respecte pas les priorités des tâches dans un système d'exploitation temps réel comme FreeRTOS, cela peut entraîner des problèmes de performances et de comportement. Par exemple, si une tâche critique avec une priorité élevée est bloquée par une tâche non critique avec une priorité plus basse, cela peut entraîner des retards dans le traitement des tâches critiques et peut même conduire à des conditions de concurrence et à des instabilités du système.

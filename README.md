@@ -49,8 +49,15 @@ Le non respect des priorités des tâches dans un système d'exploitation temps 
 
 <img width="194" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/e35fc2f0-c6ff-48e9-9eba-00fc7663a0d7"><br/>
 
+La fonction task_blink_led est créée comme une tâche FreeRTOS. Cette fonction est responsable du clignotement de la LED.
+Dans la boucle infinie de cette fonction (for (;;)) :
+La LED est basculée (allumée ou éteinte) à l'aide de HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin). Cette fonction bascule simplement l'état de la broche de la LED entre allumé et éteint à chaque itération de la boucle.
+Ensuite, la tâche est mise en pause pendant une période de temps spécifiée à l'aide de vTaskDelay(period / portTICK_PERIOD_MS). Cela permet de contrôler la fréquence de clignotement de la LED en ajustant la valeur de period.
+Lorsque la fonction led est appelée depuis le shell avec une période spécifiée, elle met à jour la variable globale period avec la période spécifiée. Si la période est définie à 0, la tâche de clignotement de la LED est suspendue, ce qui a pour effet d'éteindre la LED.
+
 <h1>3 Debug, gestion d’erreur et statistiques</h1>
 <h2>3.1 Gestion du tas</h2> <br/>
+
 
 
 

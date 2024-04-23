@@ -29,11 +29,12 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 
 <h1>2 On joue avec le Shell</h1>
 </h2>1.3) </h2>
-- le shell interprète les commandes entrées par l'utilisateur, analyse les arguments et appelle les fonctions correspondantes avec ces arguments. Dans le shell en tapant le caractère une chaine de caractère commençant par le caractère "a", la méthode "fonction" est lancé et affiche les caractères.
+- le shell interprète les commandes entrées par l'utilisateur, analyse les arguments et appelle les fonctions correspondantes avec ces arguments. Dans le shell en tapant le caractère une chaine de caractère commençant par le caractère "a", la méthode "fonction" est lancé et affiche les caractères. Lorsque le shell appelle cette fonction, elle est exécutée. Dans ce cas, la fonction fonction envoie un message via UART en utilisant les fonctions de transmission du shell. Après l'exécution de la fonction, le contrôle est renvoyé au shell, qui attend une nouvelle entrée de l'utilisateur.
 
 ![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/7a67b71f-9816-48ea-8be1-16b39cc28ccb)
 
-</h2>1.4) </h2>Le problème dans la fonction addition est que le code n'a pas de valeur de retour dans tous les chemins d'exécution. La fonction addition est déclarée comme renvoyant un int, mais il n'y a pas de retour de valeur dans tous les cas.
+</h2>1.4) </h2>
+Le problème dans cette implémentation est que la fonction fonction utilise la structure h_shell_t pour accéder aux fonctions de transmission du shell (transmit). Cependant, la structure h_shell_t n'est pas passée en tant que paramètre à la fonction fonction. Cela peut conduire à des erreurs ou un comportement indéterminé, car la fonction ne dispose pas d'un accès direct à la structure.
 
 ![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/75ac1fb6-70da-4322-9620-6b08c2f0cd70)
 

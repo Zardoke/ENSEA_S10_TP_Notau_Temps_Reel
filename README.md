@@ -28,12 +28,12 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 - On a utiliser le semphore mutex pour "verrouillé" afficher notre message dans son entièreté avec la liaison UART et "déverrouillé" le mutex.
 
 <h1>2 On joue avec le Shell</h1>
-</h2>1.5) </h2>
+</h2>1.3) </h2>
 - le shell interprète les commandes entrées par l'utilisateur, analyse les arguments et appelle les fonctions correspondantes avec ces arguments. Dans le shell en tapant le caractère une chaine de caractère commençant par le caractère "a", la méthode "fonction" est lancé et affiche les caractères.
 
 ![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/7a67b71f-9816-48ea-8be1-16b39cc28ccb)
 
-Le problème dans la fonction addition est que le code n'a pas de valeur de retour dans tous les chemins d'exécution. La fonction addition est déclarée comme renvoyant un int, mais il n'y a pas de retour de valeur dans tous les cas.
+</h2>1.4) </h2>Le problème dans la fonction addition est que le code n'a pas de valeur de retour dans tous les chemins d'exécution. La fonction addition est déclarée comme renvoyant un int, mais il n'y a pas de retour de valeur dans tous les cas.
 
 ![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/75ac1fb6-70da-4322-9620-6b08c2f0cd70)
 

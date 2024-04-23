@@ -28,7 +28,7 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 - On a utiliser le semphore mutex pour "verrouillé" afficher notre message dans son entièreté avec la liaison UART et "déverrouillé" le mutex.
 
 <h1>2 On joue avec le Shell</h1>
-![alt image](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/7a3362fd-ceb8-4bb0-80dd-1ae42df638db)
+![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/7a3362fd-ceb8-4bb0-80dd-1ae42df638db)
 
 </h2>1.3) </h2> <br/>
 - le shell interprète les commandes entrées par l'utilisateur, analyse les arguments et appelle les fonctions correspondantes avec ces arguments. Dans le shell en tapant le caractère une chaine de caractère commençant par le caractère "a", la méthode "fonction" est lancé et affiche les caractères. Lorsque le shell appelle cette fonction, elle est exécutée. Dans ce cas, la fonction fonction envoie un message via UART en utilisant les fonctions de transmission du shell. Après l'exécution de la fonction, le contrôle est renvoyé au shell, qui attend une nouvelle entrée de l'utilisateur.

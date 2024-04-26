@@ -119,12 +119,11 @@ Lecture sur StackOverFlow: https://www.freertos.org/Stacks-and-stack-overflow-ch
 Configuration de CHECK_FOR_STACK_OVERFLOW dasn CubeMX : <br/>
 <br/><img width="824" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/b3dc4abc-dce0-4c78-99de-4bdb02ac92e5"><br/>
 
+<br/><h2>3) </h2> <br/>
 - On ajoute la fonction "vApplicationStackOverflowHook" dans notre programme après avoir généré le code.
 La fonction vApplicationStackOverflowHook est automatiquement appelée par FreeRTOS lorsqu'un dépassement de pile est détecté. On utilise le débogueur pour examiner l'état de la tâche et de la pile.<br/>
 - On fait planter la pile en declarant un tableau de taille plus elevee que TASK_SHELL_STACK_DEPTH
 <br/><img width="664" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/daf9cc8a-4fe7-4e31-9443-892a393dfd38"><br/>
-
-<br/><h2>3) </h2> <br/>
 
 <br/><h2>4) </h2> <br/>
 Avec le debugger en mettant un point d'arret sur l'appel de la LED. Le debugger c'est arrêté sur la fonction "void HardFault_Handler(void)" Cela signifie qu'une erreur matérielle grave à été vue : adresse matérielle inéxistant
@@ -135,6 +134,8 @@ Avec le debugger en mettant un point d'arret sur l'appel de la LED. Le debugger 
 - vApplicationMallocFailedHook : Appelée lorsque l'allocation dynamique de mémoire échoue. Utile afin de gérer les erreurs d'allocation mémoire.
 - vApplicationIdleHook : Appelée lorsqu'une tâche atteint sa priorité maximale. Utile pour gérer les situations où une tâche monopolise le processeur.
 - vApplicationIdleHook : Appelée périodiquement lorsque le système est inactif (aucune tâche prête à s'exécuter). Utile pour effectuer des opérations périodiques ou pour activer le mode basse consommation.
+
+<h2>3.3Statistiques dans l’IDE</h2> <br/>
 
 
 

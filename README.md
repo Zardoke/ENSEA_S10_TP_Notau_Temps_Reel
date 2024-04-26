@@ -165,7 +165,7 @@ On veut dès lors faire clignoter la LED. Pour ce faire on fait Terminate and Re
 <br/><img width="229" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/1b8ab53e-d174-4af4-8e34-bbe64847530e"><br/>
 
 <br/><img width="665" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/1e46500a-218a-46fa-b6ef-185c3fadaf5f"><br/>
-On remarque l'IDLE prends plus de 99 % du temps ce qui nous comforte dans l'idée que 
+On remarque que l'IDLE prends plus de 99 % du temps ce qui nous comforte dans l'idée que celui-ci est largement uitlisé. Nous avons bien configuré et utilisé notre timer 2.
 
 <h2>3.4 Affichage des statistiques dans le shell</h2> <br/>
 

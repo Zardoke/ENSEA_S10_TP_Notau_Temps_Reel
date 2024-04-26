@@ -62,10 +62,11 @@ La zone réservée à l'allocation dynamique est généralement appelée le "tas
 </h2>2) </h2> <br/>
 Le tas est géré par FreeRTOS, pas par la HAL (Hardware Abstraction Layer). FreeRTOS alloue et gère dynamiquement la mémoire nécessaire pour les tâches, les files d'attente, les sémaphores, etc. La HAL, en revanche, fournit des interfaces logicielles pour accéder au matériel spécifique du microcontrôleur, mais elle n'intervient pas dans la gestion de la mémoire dynamique utilisée par FreeRTOS. <br/>
 </h2>3) </h2> <br/>
-Voici la partie du programme concernant la gestion d’erreur sur toutes les fonction.
-<img width="690" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/c5dd7ec0-1c52-4bb4-a263-aae66f1d2f8f">
+Voici la partie du programme concernant la gestion d’erreur sur toutes les fonction.<br/>
+<img width="689" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/0a245706-ae1a-4e76-86b0-9685ff065f5e">
 
-<img width="674" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/d446a025-b689-4a7d-af8e-52a35ea2a498">
+<br/>
+
 
 
 

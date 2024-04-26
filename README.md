@@ -104,5 +104,5 @@ On oublie pas de regénérer le code.
 Voici la nouvelle utilisation mémoire :
 <br/><img width="537" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/ba789343-e5ee-4d62-b873-a20753ffec85"><br/>
 
-<br/><img width="238" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/bf3cd57f-f497-40ba-a032-c2bbee7baffa"><br/>
+<br/><img width="230" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/6d457e24-81e0-48b6-8947-f0ccb9b1c1a7"><br/>
 

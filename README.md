@@ -22,8 +22,8 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 - Les balises BEGIN et END (ou des balises similaires) sont des outils utiles pour organiser, naviguer, comprendre, déboguer et collaborer sur du code dans un environnement de développement comme STM32CubeIDE. <br/>
 
 <h2>1.1) Tâche simple</h2> <br/>
-- Le paramètre TOTAL_HEAP_SIZE est crucial pour garantir le bon fonctionnement de FreeRTOS en fournissant suffisamment de mémoire pour les allocations dynamiques nécessaires à l'exécution des tâches et des autres structures de données. Sa valeur doit être soigneusement sélectionnée en fonction des besoins spécifiques de votre application. <br/>
-- La configuration dans le fichier FreeRTOSConfig.h permet d'adapter FreeRTOS aux besoins spécifiques de notre application, en ajustant les paramètres de performance, de taille mémoire et de fonctionnalités pour atteindre les objectifs de notre projet. Ces ajustements judicieux peuvent permettre d'optimiser l'utilisation des ressources et garantir le bon fonctionnement de votre système en temps réel. <br/>
+- Le paramètre TOTAL_HEAP_SIZE est crucial pour garantir le bon fonctionnement de FreeRTOS en fournissant suffisamment de mémoire pour les allocations dynamiques nécessaires à l'exécution des tâches et des autres structures de données. Sa valeur doit être soigneusement sélectionnée en fonction des besoins spécifiques de notre application. <br/>
+- La configuration dans le fichier FreeRTOSConfig.h permet d'adapter FreeRTOS aux besoins spécifiques de notre application, en ajustant les paramètres de performance, de taille mémoire et de fonctionnalités pour atteindre les objectifs de notre projet. Ces ajustements judicieux peuvent permettre d'optimiser l'utilisation des ressources et garantir le bon fonctionnement de notre système en temps réel. <br/>
 - portTICK_PERIOD_MS est une macro cruciale dans FreeRTOS qui définit la durée d'une tique en millisecondes, facilitant ainsi la programmation temporelle dans les applications utilisant FreeRTOS. <br/>
 <h2>1.2) Sémaphores pour la synchronisation</h2> <br/>
 </h2>1.3) Notification</h2> <br/>
@@ -103,15 +103,18 @@ On oublie pas de regénérer le code.
 <br/></h2>8) </h2> <br/>
 Voici la nouvelle utilisation mémoire :
 <br/><img width="537" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/ba789343-e5ee-4d62-b873-a20753ffec85"><br/>
-- En augmentant la taille du tas (TOTAL_HEAP_SIZE), on alloue plus de RAM pour la gestion de la mémoire dynamique de votre application.
-- L'augmentation de TOTAL_HEAP_SIZE peut réduire la quantité de RAM disponible pour des variables locales, de piles de tâches, etc. <br/>
-J'ai aussi changer la valeur maximal du nombre de tâches bidons à créer
+- En augmentant la taille du tas (TOTAL_HEAP_SIZE), on alloue plus de RAM pour la gestion de la mémoire dynamique de notre application. La RAM est une mémoire volatile utilisée par le microcontrôleur pour stocker les données en cours d'exécution de votre programme (Possible débordements de la mémoire).
+- La taille du tas (TOTAL_HEAP_SIZE) dans votre application détermine la quantité de RAM allouée pour la gestion de la mémoire dynamique, telle que l'allocation et la libération de la mémoire lors de l'exécution du programme.
+- L'augmentation de TOTAL_HEAP_SIZE peut réduire la quantité de RAM disponible pour des variables locales + de piles de tâches <br/>
+- Flash Memory :<br/>
+La Flash est une mémoire non volatile utilisée pour stocker le code de programme de votre application.
+Dans un microcontrôleur, la Flash est également limitée et doit être utilisée efficacement pour stocker le code de votre application.
 <br/><img width="230" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/6d457e24-81e0-48b6-8947-f0ccb9b1c1a7"><br/>
 
 Maintenant qu'on a noter la nouvelle utilisation de la mémoire, on va expliquer les trois relevés:
 - Utilisation de la mémoire avant l'augmentation de TOTAL_HEAP_SIZE : C'est la quantité de mémoire utilisée par notre application avant d'augmenter la taille du tas. Cette valeur donne une indication de la quantité de mémoire nécessaire à notre application.
 - Nouvelle utilisation de la mémoire après l'augmentation de TOTAL_HEAP_SIZE : C'est la quantité de mémoire utilisée par notre application après avoir augmenté la taille du tas. Cette valeur indique combien de mémoire supplémentaire a été allouée au tas et comment cela affecte l'utilisation globale de la mémoire par notre application.
-- Différence entre les deux : C'est la différence entre l'utilisation de la mémoire avant et après l'augmentation de TOTAL_HEAP_SIZE. Cette valeur montre combien de mémoire supplémentaire a été allouée au tas et comment cela affecte l'utilisation globale de la mémoire par votre application.
+- Différence entre les deux : C'est la différence entre l'utilisation de la mémoire avant et après l'augmentation de TOTAL_HEAP_SIZE. Cette valeur montre combien de mémoire supplémentaire a été allouée au tas et comment cela affecte l'utilisation globale de la mémoire par notre application.
 
 </h2>3.2 Gestion des piles</h2> <br/>
 <br/></h2>1) </h2> <br/>

@@ -81,6 +81,9 @@ Pour ce faire on :
 - Déclaration du prototype de dummy_task
 - Définit une fonction create_dummy_tasks qui crée un certain nombre de tâches bidons en utilisant la fonction dummy_task
 - Création de la fonction dummy_task est une tâche simple qui attend pendant 100 millisecondes à chaque itération
+
+<br/><img width="706" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/9b22e91d-45c4-49c3-999e-5a5b74b37e63"><br/>
+
 - Ajout de la commande pour créer les tâches bidons (tâche poubelle)
 
 <br/><img width="660" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/2a8defb8-2d51-4da7-ad6b-91d9074cc166"><br/>

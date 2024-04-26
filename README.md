@@ -77,6 +77,10 @@ Voici la partie du programme concernant la gestion d’erreur sur toutes les fon
 
 Ce code crée une série de tâches bidons jusqu'à ce qu'une erreur se produise ou jusqu'à ce que MAX_TASKS soit atteint.
 Si la création d'une tâche échoue, un message d'erreur est affiché et la boucle est interrompue.
+Pour ce faire on : 
+- dcz
+- dsfb
+- 
 
 <br/><img width="239" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/e38dafd9-a0f6-46f2-81b1-71dd0977d48b"><br/>
 

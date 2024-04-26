@@ -136,8 +136,14 @@ Avec le debugger en mettant un point d'arret sur l'appel de la LED. Le debugger 
 - vApplicationIdleHook : Appelée lorsqu'une tâche atteint sa priorité maximale. Utile pour gérer les situations où une tâche monopolise le processeur.
 - vApplicationIdleHook : Appelée périodiquement lorsque le système est inactif (aucune tâche prête à s'exécuter). Utile pour effectuer des opérations périodiques ou pour activer le mode basse consommation.
 
-<h2>3.3Statistiques dans l’IDE</h2> <br/>
+<h2>3.3 Statistiques dans l’IDE</h2> <br/>
 
+<br/><h2>1) </h2> <br/>
 <h2><img width="822" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/df71d398-a63a-46df-8a0a-47255f04df7c"></h2> <br/>****
 
+<br/><h2>2) </h2> <br/>
+<br/><h2>3) 4) </h2> <br/>
+<br/><img width="625" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/5d0f8f79-8bed-4fe9-8119-4ab1141c1604"><br/>
+
+<br/><h2>5) </h2> <br/>
 

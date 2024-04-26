@@ -59,17 +59,26 @@ Lorsque la fonction led est appelée depuis le shell avec une période spécifi�
 
 <h1>3 Debug, gestion d’erreur et statistiques</h1>
 <h2>3.1 Gestion du tas</h2> <br/>
+
 </h2>1) </h2> <br/>
 La zone réservée à l'allocation dynamique est généralement appelée le "tas" ou la "zone de heap". <br/>
+
 </h2>2) </h2> <br/>
 Le tas est géré par FreeRTOS, pas par la HAL (Hardware Abstraction Layer). FreeRTOS alloue et gère dynamiquement la mémoire nécessaire pour les tâches, les files d'attente, les sémaphores, etc. La HAL, en revanche, fournit des interfaces logicielles pour accéder au matériel spécifique du microcontrôleur, mais elle n'intervient pas dans la gestion de la mémoire dynamique utilisée par FreeRTOS. <br/>
+
 </h2>3) </h2> <br/>
-Voici la partie du programme concernant la gestion d’erreur sur toutes les fonction.<br/>
-<img width="689" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/0a245706-ae1a-4e76-86b0-9685ff065f5e">
+Voici la partie du programme concernant la gestion d’erreur sur toutes les fonction.
+<br/><img width="689" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/0a245706-ae1a-4e76-86b0-9685ff065f5e"><br/>
 
-<br/>
+</h2>4) </h2> <br/> Voici l'ocupation mémoire de la RAM et de la Flash de mon micro:
+<br/><img width="539" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/419fd111-11ec-4f68-9847-233da44aa096"><br/>
 
+</h2>5) </h2> <br/>
 
+Ce code crée une série de tâches bidons jusqu'à ce qu'une erreur se produise ou jusqu'à ce que MAX_TASKS soit atteint.
+Si la création d'une tâche échoue, un message d'erreur est affiché et la boucle est interrompue.
+
+<br/><img width="239" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/e38dafd9-a0f6-46f2-81b1-71dd0977d48b"><br/>
 
 
 

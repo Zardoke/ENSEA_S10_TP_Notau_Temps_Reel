@@ -111,7 +111,7 @@ La Flash est une mémoire non volatile utilisée pour stocker le code de program
 Dans un microcontrôleur, la Flash est également limitée et doit être utilisée efficacement pour stocker le code de votre application.
 <br/><img width="230" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/6d457e24-81e0-48b6-8947-f0ccb9b1c1a7"><br/>
 
-</h2>3.2 Gestion des piles</h2> <br/>
+<h2>3.2 Gestion des piles</h2> <br/>
 <br/></h2>1) </h2> <br/>
 Lecture sur StackOverFlow: https://www.freertos.org/Stacks-and-stack-overflow-checking.html
 

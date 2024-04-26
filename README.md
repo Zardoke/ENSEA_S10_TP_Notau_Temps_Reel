@@ -154,7 +154,10 @@ On a des valeurs cohérentent car 512 or on a 4 bits d'où 4048
 On va maintenant configurer le Timer 2 (compris sur 32bits). Cela nous permet d'éviter d'utiliser un autre timer qui comprend 16 bits et qu'il faudrait bricoler un peu.
 
 <br/><img width="611" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/559059bc-314c-4c90-a3bb-d6232954756a"><br/>
-On a mis un Prescaler de 10800 pour avoir une fréquence de 10 kHz comme préconisé dans la documentation
+On a mis un Prescaler de 10800 pour avoir une fréquence de 10 kHz comme préconisé dans la documentation.<br/>
+
+On ajoute dans notre programme les lignes necessaires à démarrer le timer 2 et récupérer la valeur du compteur de celui-ci.
+<br/>![image](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/fbc53820-f28d-454b-95d2-f3e18a96e8ab)<br/>
 
 La fonction vTaskSuspend() met en pause une tâche lorsqu'elle n'est pas nécessaire pour économiser les ressources du processeur.  Contrairement a la fonction HAL_delay qui monopolise le CPU bloque la tache durant le temps indiqué.
 

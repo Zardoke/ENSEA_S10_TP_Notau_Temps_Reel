@@ -117,9 +117,12 @@ Lecture sur StackOverFlow: https://www.freertos.org/Stacks-and-stack-overflow-ch
 
 <br/><h2>2) </h2> <br/>
 Configuration de CHECK_FOR_STACK_OVERFLOW dasn CubeMX : <br/>
-<br/><img width="801" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/482979d8-0a9a-42e8-8195-d23476a93da6"><br/>
-Ajouter la fonction "vApplicationStackOverflowHook" dans notre programme après avoir généré le code.
+<br/><img width="824" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/b3dc4abc-dce0-4c78-99de-4bdb02ac92e5"><br/>
+
+- On ajoute la fonction "vApplicationStackOverflowHook" dans notre programme après avoir généré le code.
 La fonction vApplicationStackOverflowHook est automatiquement appelée par FreeRTOS lorsqu'un dépassement de pile est détecté. On utilise le débogueur pour examiner l'état de la tâche et de la pile.<br/>
+- On fait planter la pile en declarant un tableau de taille plus elevee que TASK_SHELL_STACK_DEPTH
+<br/><img width="664" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/daf9cc8a-4fe7-4e31-9443-892a393dfd38"><br/>
 
 <br/><h2>3) </h2> <br/>
 

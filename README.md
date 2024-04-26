@@ -139,11 +139,11 @@ Avec le debugger en mettant un point d'arret sur l'appel de la LED. Le debugger 
 <h2>3.3 Statistiques dans l’IDE</h2> <br/>
 
 <br/><h2>1) </h2> <br/>
-<h2><img width="822" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/df71d398-a63a-46df-8a0a-47255f04df7c"></h2> <br/>****
+<h2><img width="822" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/df71d398-a63a-46df-8a0a-47255f04df7c"></h2> <br/>
 
 <br/><h2>2) </h2> <br/>
-<br/><h2>3) 4) </h2> <br/>
+<br/><h2>3) 4) 5) </h2> <br/>
 <br/><img width="625" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/5d0f8f79-8bed-4fe9-8119-4ab1141c1604"><br/>
 
-<br/><h2>5) </h2> <br/>
+<br/><h2>6) </h2> <br/>
 

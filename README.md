@@ -2,6 +2,8 @@
 TP_Notau_Temps_Reel_FreeRTOS
 # Laloux Yann, Geslin Arthur et Lejars Valentin 3DN
 # Séance 1 : 22/03/2024
+# Séance 4 : 25/04/2024
+# Séance 5 : 26/04/2024
 
 <h1>1 FreeRTOS, tâches et sémaphores</h1>
 Créez un projet pour la carte STM32F746G-DISCO. <br/>

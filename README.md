@@ -6,7 +6,8 @@ TP_Noyau_Temps_Reel_FreeRTOS
 # Séance 3 : 04/04/2024
 # Séance 4 : 05/04/2024
 # Séance 5 : 25/04/2024
-# Séance 6 : 26/04/2024
+# Séance 6 : 26/04/2024 Matin
+# Séance 7 : 26/04/2024 Après-Midi
 
 <h1>1 FreeRTOS, tâches et sémaphores</h1>
 Créez un projet pour la carte STM32F746G-DISCO. <br/>

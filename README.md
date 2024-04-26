@@ -112,10 +112,10 @@ Dans un microcontrôleur, la Flash est également limitée et doit être utilis�
 <br/><img width="230" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/6d457e24-81e0-48b6-8947-f0ccb9b1c1a7"><br/>
 
 <h2>3.2 Gestion des piles</h2> <br/>
-<br/></h2>1) </h2> <br/>
+<br/><h2>1) </h2> <br/>
 Lecture sur StackOverFlow: https://www.freertos.org/Stacks-and-stack-overflow-checking.html
 
-<br/><h2>2) </h2> <br/>
+<br/><h3>2) </h3> <br/>
 Configuration de CHECK_FOR_STACK_OVERFLOW dasn CubeMX : <br/>
 <br/><img width="801" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/482979d8-0a9a-42e8-8195-d23476a93da6"><br/>
 Ajouter la fonction "vApplicationStackOverflowHook" dans notre programme après avoir généré le code.

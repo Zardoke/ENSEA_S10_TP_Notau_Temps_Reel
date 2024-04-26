@@ -64,8 +64,6 @@ Le tas est géré par FreeRTOS, pas par la HAL (Hardware Abstraction Layer). Fre
 </h2>3) </h2> <br/>
 Voici la partie du programme concernant la gestion d’erreur sur toutes les fonction.
 
-![Uploading Capture.PNG…]()
-
 <img width="674" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/d446a025-b689-4a7d-af8e-52a35ea2a498">
 
 

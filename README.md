@@ -114,8 +114,13 @@ Maintenant qu'on a noter la nouvelle utilisation de la mémoire, on va expliquer
 - Différence entre les deux : C'est la différence entre l'utilisation de la mémoire avant et après l'augmentation de TOTAL_HEAP_SIZE. Cette valeur montre combien de mémoire supplémentaire a été allouée au tas et comment cela affecte l'utilisation globale de la mémoire par votre application.
 
 </h2>3.2 Gestion des piles</h2> <br/>
-<br/><img width="801" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/482979d8-0a9a-42e8-8195-d23476a93da6"><br/>
+<br/></h2>1) </h2> <br/>
+Lecture sur StackOverFlow: https://www.freertos.org/Stacks-and-stack-overflow-checking.html
 
+<br/></h2>2) </h2> <br/>
+Configuration de CHECK_FOR_STACK_OVERFLOW dasn CubeMX : <br/>
+<br/><img width="801" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/482979d8-0a9a-42e8-8195-d23476a93da6"><br/>
+Ajouter la fonction "vApplicationStackOverflowHook" dans notre programme après avoir généré le code.
 La fonction vApplicationStackOverflowHook est automatiquement appelée par FreeRTOS lorsqu'un dépassement de pile est détecté. On utilise le débogueur pour examiner l'état de la tâche et de la pile.<br/>
 
 <br/></h2>5) </h2> <br/>

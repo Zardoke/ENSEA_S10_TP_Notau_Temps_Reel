@@ -118,10 +118,12 @@ Maintenant qu'on a noter la nouvelle utilisation de la mémoire, on va expliquer
 
 La fonction vApplicationStackOverflowHook est automatiquement appelée par FreeRTOS lorsqu'un dépassement de pile est détecté. On utilise le débogueur pour examiner l'état de la tâche et de la pile.<br/>
 
- Voici quelques-uns d'entre eux et leur intérêt :
+<br/></h2>5) </h2> <br/>
+ Voici d’autres hooks. et leur intérêt :
 
-- vApplicationMallocFailedHook : Appelée lorsque l'allocation dynamique de mémoire échoue. Utile pour gérer les erreurs d'allocation mémoire.
+- vApplicationMallocFailedHook : Appelée lorsque l'allocation dynamique de mémoire échoue. Utile afin de gérer les erreurs d'allocation mémoire.
 - vApplicationIdleHook : Appelée lorsqu'une tâche atteint sa priorité maximale. Utile pour gérer les situations où une tâche monopolise le processeur.
+- vApplicationIdleHook : Appelée périodiquement lorsque le système est inactif (aucune tâche prête à s'exécuter). Utile pour effectuer des opérations périodiques ou pour activer le mode basse consommation.
 
 
 

@@ -90,17 +90,17 @@ Pour ce faire on :
 - Ajout de la commande pour créer les tâches bidons (tâche poubelle)
 
 <br/><img width="660" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/2a8defb8-2d51-4da7-ad6b-91d9074cc166"><br/>
-
 <br/><img width="239" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/e38dafd9-a0f6-46f2-81b1-71dd0977d48b"><br/>
 
-</h2>6) </h2> <br/> Notons la nouvelle utilisation mémoire.
+<br/></h2>6) </h2> <br/> Notons la nouvelle utilisation mémoire.
 <br/><img width="537" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/0f117b55-d2ad-4193-9f2c-c086985a035b"><br/>
 
-</h2>7) </h2> <br/> Dans CubeMX, augmentons la taille du tas (TOTAL_HEAP_SIZE). Et générons le
+<br/></h2>7) </h2> <br/> Dans CubeMX, augmentons la taille du tas (TOTAL_HEAP_SIZE). Et générons le
 code, compilez et testez.
 <br/><img width="557" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/281bf2b4-0937-489c-a038-3b3b4f303e38"><br/>
 On oublie pas de regénérer le code.
-</h2>8) </h2> <br/>
+
+<br/></h2>8) </h2> <br/>
 Voici la nouvelle utilisation mémoire :
 <br/><img width="537" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/ba789343-e5ee-4d62-b873-a20753ffec85"><br/>
 

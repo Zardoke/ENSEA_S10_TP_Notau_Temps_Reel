@@ -158,9 +158,10 @@ On a mis un Prescaler de 10800 pour avoir une fréquence de 10 kHz comme précon
 
 La fonction vTaskSuspend() met en pause une tâche lorsqu'elle n'est pas nécessaire pour économiser les ressources du processeur.  Contrairement a la fonction HAL_delay qui monopolise le CPU bloque la tache durant le temps indiqué.
 
-On se met en mode Debug et dans le shell on met la LED à 0 (Commande l 100). On remarque que le temps d'execution est très faible. Par ailleurs la valeur du Shell à 100% semble être une erreur puisque rien ne l'explique.
+On se met en mode Debug. Puis dans le shell on met la LED à 0 avec la commande (l 0). On remarque que le temps d'execution est très faible. Par ailleurs la valeur du Shell à 100% semble être une erreur puisque rien ne l'explique.
 <br/><img width="662" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/a0cbc322-aafa-430c-8b63-d81ba602cce4"><br/>
 
+On veut faire clignoter la LED avec la commande (l 100)
 <br/><img width="229" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/1b8ab53e-d174-4af4-8e34-bbe64847530e"><br/>
 
 <br/><img width="665" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/1e46500a-218a-46fa-b6ef-185c3fadaf5f"><br/>

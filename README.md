@@ -103,6 +103,6 @@ On oublie pas de regénérer le code.
 <br/></h2>8) </h2> <br/>
 Voici la nouvelle utilisation mémoire :
 <br/><img width="537" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/ba789343-e5ee-4d62-b873-a20753ffec85"><br/>
-
+J'ai aussi changer la valeur maximal du nombre de tâches bidons à créer
 <br/><img width="230" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/6d457e24-81e0-48b6-8947-f0ccb9b1c1a7"><br/>
 

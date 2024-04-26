@@ -100,6 +100,9 @@ Pour ce faire on :
 code, compilez et testez.
 <br/><img width="557" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/281bf2b4-0937-489c-a038-3b3b4f303e38"><br/>
 On oublie pas de regénérer le code.
+</h2>8) </h2> <br/>
+Voici la nouvelle utilisation mémoire :
+<br/><img width="537" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/ba789343-e5ee-4d62-b873-a20753ffec85"><br/>
 
 
 

@@ -99,6 +99,7 @@ Pour ce faire on :
 </h2>7) </h2> <br/> Dans CubeMX, augmentons la taille du tas (TOTAL_HEAP_SIZE). Et générons le
 code, compilez et testez.
 <br/><img width="557" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/281bf2b4-0937-489c-a038-3b3b4f303e38"><br/>
+On oublie pas de regénérer le code.
 
 
 

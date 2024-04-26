@@ -114,4 +114,7 @@ Maintenant qu'on a noter la nouvelle utilisation de la mémoire, on va expliquer
 - Différence entre les deux : C'est la différence entre l'utilisation de la mémoire avant et après l'augmentation de TOTAL_HEAP_SIZE. Cette valeur montre combien de mémoire supplémentaire a été allouée au tas et comment cela affecte l'utilisation globale de la mémoire par votre application.
 
 </h2>3.2 Gestion des piles</h2> <br/>
+<br/><img width="801" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/482979d8-0a9a-42e8-8195-d23476a93da6"><br/>
+
+
 

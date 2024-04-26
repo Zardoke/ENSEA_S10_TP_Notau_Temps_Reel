@@ -39,7 +39,7 @@ Configurez la broche PI1 en sortie (c’est la LED !).
 
 ![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/7a67b71f-9816-48ea-8be1-16b39cc28ccb)
 
-</h2>1.4) </h2> <br/>
+<h2>1.4) </h2> <br/>
 Le problème dans cette implémentation est que la fonction fonction utilise la structure h_shell_t pour accéder aux fonctions de transmission du shell (transmit). Cependant, la structure h_shell_t n'est pas passée en tant que paramètre à la fonction fonction. Cela peut conduire à des erreurs ou un comportement indéterminé, car la fonction ne dispose pas d'un accès direct à la structure.
 
 ![alt text](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/75ac1fb6-70da-4322-9620-6b08c2f0cd70)
@@ -115,7 +115,7 @@ Dans un microcontrôleur, la Flash est également limitée et doit être utilis�
 <br/><h2>1) </h2> <br/>
 Lecture sur StackOverFlow: https://www.freertos.org/Stacks-and-stack-overflow-checking.html
 
-<br/><h3>2) </h3> <br/>
+<br/><h2>2) </h2> <br/>
 Configuration de CHECK_FOR_STACK_OVERFLOW dasn CubeMX : <br/>
 <br/><img width="801" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/482979d8-0a9a-42e8-8195-d23476a93da6"><br/>
 Ajouter la fonction "vApplicationStackOverflowHook" dans notre programme après avoir généré le code.

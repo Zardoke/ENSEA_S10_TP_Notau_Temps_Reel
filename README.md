@@ -145,9 +145,12 @@ Avec le debugger en mettant un point d'arret sur l'appel de la LED. Le debugger 
 
 <br/><img width="686" alt="image" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/73eb5dc2-2a6d-4d51-b6db-f83ee9d0e6b5"><br/>
 
-<br/><h2>4) 5) </h2> <br/>
-<br/><img width="625" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/5d0f8f79-8bed-4fe9-8119-4ab1141c1604"><br/>
-<img width="626" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/118da6ff-59f3-481b-b42c-b916c204ad6c">
+<br/><h2>4)</h2> <br/>
+<img width="626" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/118da6ff-59f3-481b-b42c-b916c204ad6c"><br/>
+
+<br/><h2>5)</h2> <br/>
+<img width="721" alt="Capture d’écran 2024-04-26 160721" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/90c56dae-ff93-4836-adb8-fea54af0af72"><br/>
 
 <br/><h2>6) </h2> <br/>
+512 or on a 4 mots d'où 4048
 

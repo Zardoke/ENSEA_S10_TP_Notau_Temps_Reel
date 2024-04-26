@@ -90,8 +90,10 @@ Pour ce faire on :
 
 <br/><img width="239" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/e38dafd9-a0f6-46f2-81b1-71dd0977d48b"><br/>
 
-</h2>6) </h2> <br/> Notez la nouvelle utilisation mémoire.
+</h2>6) </h2> <br/> Notons la nouvelle utilisation mémoire.
 <br/><img width="537" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/0f117b55-d2ad-4193-9f2c-c086985a035b"><br/>
 
+</h2>7) </h2> <br/> Dans CubeMX, augmentons la taille du tas (TOTAL_HEAP_SIZE). Et générons le
+code, compilez et testez.
 
 

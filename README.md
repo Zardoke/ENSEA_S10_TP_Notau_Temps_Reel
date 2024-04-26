@@ -121,6 +121,11 @@ Configuration de CHECK_FOR_STACK_OVERFLOW dasn CubeMX : <br/>
 Ajouter la fonction "vApplicationStackOverflowHook" dans notre programme après avoir généré le code.
 La fonction vApplicationStackOverflowHook est automatiquement appelée par FreeRTOS lorsqu'un dépassement de pile est détecté. On utilise le débogueur pour examiner l'état de la tâche et de la pile.<br/>
 
+<br/><h2>3) </h2> <br/>
+
+<br/><h2>4) </h2> <br/>
+Avec le debugger en mettant un point d'arret sur l'appel de la LED. Le debugger c'est arrêté sur la fonction "void HardFault_Handler(void)" Cela signifie qu'une erreur matérielle grave à été vue : adresse matérielle inéxistant
+
 <br/><h2>5) </h2> <br/>
  Voici d’autres hooks. et leur intérêt :
 

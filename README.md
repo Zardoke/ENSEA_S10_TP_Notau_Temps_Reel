@@ -152,7 +152,8 @@ Avec le debugger en mettant un point d'arret sur l'appel de la LED. Le debugger 
 <img width="721" alt="Capture d’écran 2024-04-26 160721" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/90c56dae-ff93-4836-adb8-fea54af0af72"><br/>
 On a des valeurs cohérentent car 512 or on a 4 bits d'où 4048
 <br/><h2>6) </h2> <br/>
-On va maintenant configurer le Timer 2 : 
+On va maintenant configurer le Timer 2 (compris sur 32bits). Cela nous permet d'éviter d'utiliser un autre timer qui comprend 16 bits et qu'il faudrait bricoler un peu.
+
 <br/><img width="611" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/559059bc-314c-4c90-a3bb-d6232954756a"><br/>
 On a mis un Prescaler de 10800 pour avoir une fréquence de 10 kHz comme préconisé dans la documentation
 

@@ -116,5 +116,7 @@ Maintenant qu'on a noter la nouvelle utilisation de la mémoire, on va expliquer
 </h2>3.2 Gestion des piles</h2> <br/>
 <br/><img width="801" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/482979d8-0a9a-42e8-8195-d23476a93da6"><br/>
 
+La fonction vApplicationStackOverflowHook est automatiquement appelée par FreeRTOS lorsqu'un dépassement de pile est détecté. On utilise le débogueur pour examiner l'état de la tâche et de la pile.<br/>
+
 
 

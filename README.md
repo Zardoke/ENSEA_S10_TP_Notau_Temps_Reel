@@ -106,3 +106,6 @@ Voici la nouvelle utilisation mémoire :
 J'ai aussi changer la valeur maximal du nombre de tâches bidons à créer
 <br/><img width="230" alt="Capture" src="https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/6d457e24-81e0-48b6-8947-f0ccb9b1c1a7"><br/>
 
+- En augmentant la taille du tas (TOTAL_HEAP_SIZE), vous allouez plus de RAM pour la gestion de la mémoire dynamique de votre application.
+- L'augmentation de TOTAL_HEAP_SIZE peut réduire la quantité de RAM disponible pour des variables locales, de piles de tâches, etc.
+

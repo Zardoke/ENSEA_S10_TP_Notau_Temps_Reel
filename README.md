@@ -1,4 +1,3 @@
-![image](https://github.com/Zardoke/ENSEA_S10_TP_Noyau_Temps_Reel/assets/144770542/266b7b20-774e-4c76-aaa8-bf47494cef2d)# ENSEA_S10_TP_Noyau_Temps_Reel FreeRTOS
 TP_Noyau_Temps_Reel_FreeRTOS
 # Laloux Yann, Geslin Arthur et Lejars Valentin 3DN
 # Séance 1 : 22/03/2024

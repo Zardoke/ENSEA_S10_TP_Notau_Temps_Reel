@@ -120,8 +120,8 @@ La fonction vApplicationStackOverflowHook est automatiquement appelée par FreeR
 
  Voici quelques-uns d'entre eux et leur intérêt :
 
-vApplicationMallocFailedHook : Appelée lorsque l'allocation dynamique de mémoire échoue. Utile pour gérer les erreurs d'allocation mémoire.
-vApplicationIdleHook : Appelée lorsqu'une tâche atteint sa priorité maximale. Utile pour gérer les situations où une tâche monopolise le processeur.
+- vApplicationMallocFailedHook : Appelée lorsque l'allocation dynamique de mémoire échoue. Utile pour gérer les erreurs d'allocation mémoire.
+- vApplicationIdleHook : Appelée lorsqu'une tâche atteint sa priorité maximale. Utile pour gérer les situations où une tâche monopolise le processeur.
 
 
 
